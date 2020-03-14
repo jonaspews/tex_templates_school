@@ -21,7 +21,7 @@ Will be looking into that.
 
 ## Authors
 
-* **Jonas Pews** - *Initial work* - [PurpleBooth](https://github.com/jonaspews)
+* **Jonas Pews** - *Initial work* - [jonaspews](https://github.com/jonaspews)
 
 ## License
 
@@ -29,3 +29,4 @@ Have to look into that. So far use it as you want.
 
 ## Acknowledgments
 
+will follow
