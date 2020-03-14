@@ -1,0 +1,62 @@
+% \documentclass[12pt,a4paper]{article}
+\documentclass{scrartcl}  % KOMA-Scritp equivalent to \documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{ngerman}
+\renewcommand{\familydefault}{\sfdefault}  % change serif (default-value) to SansSerif version of LaTex-font
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{xcolor}  % to use more colors, esp. with smartdiagrams, boxes etc.
+\usepackage{hyperref} % to create hypertext links in PDF (jump from content overview to according pages)
+\usepackage{enumitem} %  for enumerate with letters
+\usepackage{textcomp} % for copyright symbol
+\usepackage{wrapfig}  % to wrap images and text
+\usepackage{lipsum}  % generates filler text
+\usepackage{pdflscape}  % for using landscape format in between
+\usepackage{smartdiagram}  % to create cooler diagrams
+
+% ****************************
+% Setup: Chemistry and Science 
+% ****************************
+\usepackage{gensymb}  % to use symbols
+\usepackage{siunitx}  % to use symbols and units
+\usepackage{chemmacros}  % used for chemistry stuff
+\usepackage{chemfig}  % used for chemistry stuff
+\usepackage[version=4]{mhchem}   % used for chemistry stuff
+
+% ******************************
+% Setup: Boxes for special tasks 
+% ******************************
+\usepackage{tcolorbox} % for making boxes around stuff
+\tcbuselibrary{skins}  % for textcolorbox
+
+% *****************
+% Setup: ToDo-Lists 
+% *****************
+\newlist{todolist}{itemize}{2}  % for ToDo-List
+\setlist[todolist]{label=$\square$}  % for ToDo-List
+
+% *********************************
+% Setup: page layout for worksheets
+% *********************************
+\usepackage[left=1.50cm, right=1.50cm, top=2.00cm, bottom=2.00cm]{geometry}
+\usepackage[headsepline,footsepline]{scrlayer-scrpage}
+\pagestyle{scrheadings}
+
+% ************************
+% Setup: Header and Footer
+% ************************
+
+\ihead{\textsf{Left Slot}}  % Header - Left Slot
+\chead{\textbf{\textsf{Unit 4}}}  % Header - Center Slot
+\ohead{\textsf{2020}}  % Header - Right Slot
+% \ifoot{Fußzeile innen}
+\cfoot{\textsf{\pagemark}}
+%\ofoot{Fußzeile außen}    % Footer - Right Slot
+
+
+\begin{document}
+
+\end{document}
