@@ -1,4 +1,4 @@
-# Project Title
+# Tex Template for School
 
 This is a tex-template to use for worksheets you can use in school (and otherwise). It includes some settings for scientific notations (like chemfig etc.). There will be(or is, depending on the time you read this) a template for presentation slides and a lap report template.
 
